@@ -11,6 +11,7 @@ public class INTX001 extends Base {
 	  
 	  mp.ClickOnLogo();
 	  driver.navigate().back();
+	  
 	  String ActualURL = driver.getCurrentUrl();
 	  Assert.assertEquals(BaseURL, ActualURL,"URL is matching TC is passed");
   }
